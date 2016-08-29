@@ -17,7 +17,7 @@ This script is for logging you into Cyberoam. You will have to enter the passwor
 This script is for logging you out from Cyberoam. But before running it make sure you have ended the login.py script by using Keyboard interrupt.
 
 ##### IDS Folder
-This folder will be empty at first. But you will populate it by running id_extractor_script.py against different passwords to give you a list of possible ID's you can use for each password.
+This folder will not be present at first. It will come in form by running id_extractor_script.py against different passwords to give you a list of possible ID's you can use for each password.
 
 
 ### Making logging in more simpler
