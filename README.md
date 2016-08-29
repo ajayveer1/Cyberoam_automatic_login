@@ -8,7 +8,7 @@ This repo contains following files: <br />
 3. logout.py
 
 #####1. id_extractor_script.py
-This script can be used to make a folder containing differnt login IDS. You will be prompted to enter a password and after that a list of all the possible ID's that can be used for login will be created which will be used by the login.py script.
+This script can be used to make a folder containing differnt login IDS. In this script Brute force method is used to check the password against each ID. You will be prompted to enter a password and after that a list of all the possible ID's that can be used for login will be created which will be used by the login.py script.
 
 #####2. login.py
 This script is for logging you into Cyberoam. You will have to enter the passwors in string form in the array in this file so that it can log you in Cyberoam by picking up some random ID from the IDS folder which you created by using id_extractor_script.py.
